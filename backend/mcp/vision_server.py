@@ -12,7 +12,7 @@ class VisionMCPServer:
             if not ret:
                 break
 
-            # FAKE placeholder logic (replace with YOLO later)
+            # FAKE placeholder logic 
             # Example: pretend we detect "person"
             detected.add("person")
 
