@@ -33,14 +33,14 @@ curl https://sh.rustup.rs -sSf | sh
 npm run dev
 
 **Start backend:**
-source venv/bin/activate
+source venv/bin/activate   
 uvicorn main:app --reload
 
 **Start Tauri:**
 npx tauri dev
 
 **Production Build**
-npm run build
+npm run build   
 npx tauri build
 
 **Run the generated desktop application from:**
@@ -49,15 +49,15 @@ src-tauri/target/release/
 
 **Example Usage**
 **Sample Queries**
-“Transcribe the video.”
-“What objects are shown in the video?”
-“Summarize our discussion so far and generate a PDF.”
+1. “Transcribe the video.”
+2. “What objects are shown in the video?”
+3. “Summarize our discussion so far and generate a PDF.”
 
 **Example Outputs**
-Transcribed text from video
-Detected objects and descriptions
-Generated PDF summary report
-Example of Human-in-the-loop clarification
+1. Transcribed text from video
+2. Detected objects and descriptions
+3. Generated PDF summary report
+4. Example of Human-in-the-loop clarification
 
 **Summary**
 The system successfully implements a fully local AI-powered video analysis desktop application. Users can upload .mp4 videos and interact with the system using natural language queries.
