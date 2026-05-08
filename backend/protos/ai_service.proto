@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package videoai;
+
+service QueryService {
+  rpc ProcessQuery (QueryRequest) returns (QueryResponse);
+}
+
+message QueryRequest {
+  string query = 1;
+  string video_path = 2;
+}
+
+message QueryResponse {
+  string result = 1;
+}
