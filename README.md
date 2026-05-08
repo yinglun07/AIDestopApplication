@@ -13,6 +13,7 @@ This project implements a fully local AI-powered desktop application capable of 
 The application is built with a modular architecture using a Python-based gRPC backend, MCP-inspired agents, and a React + Tauri desktop frontend. All AI inference is performed locally without any cloud dependency.
 
 **Setup Instructions**
+
 **1. Clone repository**
 
 git clone <your-repo-url>
