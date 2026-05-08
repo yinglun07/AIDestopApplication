@@ -16,7 +16,7 @@ The application is built with a modular architecture using a Python-based gRPC b
 **1. Clone repository**
 
 git clone <your-repo-url>
-cd project
+cd AIDestopApplication
 
 **2. Install frontend dependencies**
 npm install
@@ -30,6 +30,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 **How to Run**
 **Development Mode**
+
 **Start frontend:**
 npm run dev
 
